@@ -5,3 +5,4 @@
 ```Задача №1: заказ доставки карты (изменение даты) ```
 
 
+[![Build status](https://ci.appveyor.com/api/projects/status/ptulxo3q6eg5lxyv?svg=true)](https://ci.appveyor.com/project/SElena050622/gra51patterns)
