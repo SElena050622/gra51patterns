@@ -11,12 +11,23 @@ import com.codeborne.selenide.*;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
+import com.codeborne.selenide.*;
+import org.jsoup.select.Selector;
+import org.junit.jupiter.api.AfterEach;
+
+import org.openqa.selenium.Keys;
+
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Selectors.*;
+import static com.codeborne.selenide.Selenide.*;
 
 class CardDeliveryTest {
-
     @BeforeEach
     void setup() { open("http://localhost:9999"); }
-
     @Test
     @DisplayName("Should successful plan meeting")
     void shouldSuccessPlanMeeting() {
