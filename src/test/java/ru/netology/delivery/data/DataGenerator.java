@@ -1,31 +1,11 @@
 package ru.netology.delivery.data;
 import com.github.javafaker.Faker;
 import lombok.Value;
-import org.junit.jupiter.params.provider.ValueSource;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Random;
-import static ru.netology.delivery.data.DataGenerator.Registration.*;
-import com.codeborne.selenide.*;
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.*;
-import static com.codeborne.selenide.Selenide.*;
-import com.codeborne.selenide.*;
-import org.jsoup.select.Selector;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Test;
-import org.openqa.selenium.Keys;
-
-import java.time.Duration;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.*;
-import static com.codeborne.selenide.Selenide.*;
 
 public class DataGenerator {
     private DataGenerator() {
